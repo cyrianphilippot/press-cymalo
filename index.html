@@ -1,189 +1,275 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="exo" />
+    <meta name="auteur" content="cymalo" />
+    <title>Refonte presse citron</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="exo" />
-  <meta name="auteur" content="cymalo" />
-  <title>Refonte presse citron</title>
-  <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-  <!-- CSS-->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-</head>
-
-<body>
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">cymalo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">
+                Accueil
+                <span class="sr-only">strats</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.ynov.com/">Réseaux</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/cyrianphilippot/press-cymalo/blob/main/README.md"
+                >Consigne</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.google.com/intl/fr/gmail/about/"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Content-->
     <div class="container">
-      <a class="navbar-brand" href="index.html">cymalo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-              Accueil
-              <span class="sr-only">strats</span>
+      <div class="row">
+        <div class="col-lg-3">
+          <h1 class="my-4">Nos filtres</h1>
+          <div class="list-group">
+            <a class="list-group-item" href="tris">Scientifique</a>
+            <a class="list-group-item" href="tris">Technologie</a>
+            <a class="list-group-item" href="tris">Gestion</a>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div
+            class="carousel slide my-4"
+            id="carouselExampleIndicators"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li class="active" data-target="carousel" data-slide-to="0"></li>
+              <li data-target="carousel" data-slide-to="1"></li>
+              <li data-target="carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img
+                  class="d-block img-fluid"
+                  src="images/faim.jpg"
+                  alt="premiere slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="images/paye.jpg"
+                  alt="seconds slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="images/up.jpg"
+                  alt="troisieme slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="carousel"
+              role="button"
+              data-slide="voir"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Voir</span>
             </a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="https://www.ynov.com/">Réseaux</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/cyrianphilippot/press-cymalo/blob/main/README.md">Consigne</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="https://www.google.com/intl/fr/gmail/about/">Contacte</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Page Content-->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <h1 class="my-4">Nos filtres</h1>
-        <div class="list-group">
-          <a class="list-group-item" href="tris">Scientifique</a>
-          <a class="list-group-item" href="tris">Technologie</a>
-          <a class="list-group-item" href="tris">Gestion</a>
-        </div>
-      </div>
-      <div class="col-lg-9">
-        <div class="carousel slide my-4" id="carouselExampleIndicators" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li class="active" data-target="carousel" data-slide-to="0"></li>
-            <li data-target="carousel" data-slide-to="1"></li>
-            <li data-target="carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block img-fluid" src="images/faim.jpg" alt="premiere slide" />
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="images/paye.jpg" alt="seconds slide" />
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="images/up.jpg" alt="troisieme slide" />
-            </div>
+            <a
+              class="carousel-control-next"
+              href="carousel"
+              role="button"
+              data-slide="suivant"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Suivant</span>
+            </a>
           </div>
-          <a class="carousel-control-prev" href="carousel" role="button" data-slide="voir">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Voir</span>
-          </a>
-          <a class="carousel-control-next" href="carousel" role="button" data-slide="suivant">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Suivant</span>
-          </a>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/tram.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">La vélocité dépasse t'elle la célérité du temps ?</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">
-                  Pas de bonheur sans courage pas de vertue sans combats !
-                </p>
-              </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/tram.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html"
+                      >La vélocité dépasse t'elle la célérité du temps ?</a
+                    >
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">
+                    Pas de bonheur sans courage pas de vertue sans combats !
+                  </p>
+                </div>
 
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/sid.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">Le retour du deep fake.</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">La terre est bleue comme une orange !</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/taf.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">Le travail ça vous gagne !</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">
-                  Nul peur ne peux résider en toi dé l'or ou ce que tu fais
-                  est juste !
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ☆</small>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/sid.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html">Le retour du deep fake.</a>
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">La terre est bleue comme une orange !</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/data.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">Data scientist les soldats incunnu !</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">
-                  Le problème quand on est connu pour notre force ces que
-                  personnes ne s'inquite pour toi !
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ☆</small>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/mignion.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">L'ouvrier moderne.</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">
-                  Il y a des personnes ou tu as envie de leurs donnée tout ce
-                  qu'ils n'ont pas eux dans leurs enfance comme des fessées !
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/taf.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html">Le travail ça vous gagne !</a>
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">
+                    Nul peur ne peux résider en toi dé l'or ou ce que tu fais
+                    est juste !
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ☆</small>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="article.html"><img class="card-img-top" src="images/salon.jpg" alt="cal" /></a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="article.html">Gestion de travail en confinement.</a></h4>
-                <h5>Ecris par : bob</h5>
-                <p class="card-text">
-                  Ranger c'est mettre le bazzar dans sont désordre !
-                </p>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/data.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html"
+                      >Data scientist les soldats incunnu !</a
+                    >
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">
+                    Le problème quand on est connu pour notre force ces que
+                    personnes ne s'inquite pour toi !
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ☆</small>
+                </div>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Avis de la commu : ★ ★ ★ ☆ ☆</small>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/mignion.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html">L'ouvrier moderne.</a>
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">
+                    Il y a des personnes ou tu as envie de leurs donnée tout ce
+                    qu'ils n'ont pas eux dans leurs enfance comme des fessées !
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ★ ★</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="article.html"
+                  ><img class="card-img-top" src="images/salon.jpg" alt="cal"
+                /></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="article.html"
+                      >Gestion de travail en confinement.</a
+                    >
+                  </h4>
+                  <h5>Ecris par : bob</h5>
+                  <p class="card-text">
+                    Ranger c'est mettre le bazzar dans sont désordre !
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Avis de la commu : ★ ★ ★ ☆ ☆</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer-->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">
-        J'odore le tram surtout quand je libère la RAM ;)
-      </p>
-    </div>
-  </footer>
-</body>
-
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          J'odore le tram surtout quand je libère la RAM ;)
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
