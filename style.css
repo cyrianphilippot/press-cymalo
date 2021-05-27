@@ -10,4 +10,21 @@
     font-size: 19px;
 }
 
-#00c853
+.navbar-custom {
+    background-color: #00c853;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
